@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Scanner</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="logo5.png" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="#">
+        <input type="file" hidden />
+        <img src="" alt="QR" />
+        <div class="contant">
+          <i class="bx bx-cloud-upload"></i>
+          <span>Upload QR Code To Scan</span>
+        </div>
+      </form>
+
+      <div class="details">
+        <textarea disabled></textarea>
+        <div class="btn-con">
+          <button class="close">Close</button>
+          <button class="copy">Copy Text</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
